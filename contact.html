@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact information</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="CSS/styles.css">
+    </head>
+    <body>
+        <div><h1>Contact information</h1></div>
+        <div>
+            <p>e-mail: <em>Uriel278@Uriel.MX</em></p>
+            <p>Phone number: 5577889966</p>
+            <p>Facebook: <a href="#" target = '_blank' ></a></p>
+        </div>
+        <br>
+        <div>
+            <form action="mailto:uriel@gmail.com" id = 'contact-form' method="POST" enctype="text/plain">
+                <div>
+                    <label for = 'Name'>Your name: </label>
+                    <input id = 'Name' type = 'text'  name="Name" placeholder = 'Your name' required>
+                    <br>
+                    <label for="email">E-mail: </label>
+                    <input id="email" type="email" name="E-mail"placeholder="Your e-mail" required>
+                </div>
+                <br>
+                <div>
+                        <textarea name="Message" cols="30" rows="10" placeholder="Write your message" wrap="hard">Write a message.
+                        </textarea>
+                </div>
+                <input type="submit">
+            </form>
+        </div>
+    </body>
+</html>
