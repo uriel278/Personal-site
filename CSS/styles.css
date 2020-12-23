@@ -1,6 +1,6 @@
 body {
     background-color: #bedbbb;
-    text-aling: center;
+    text-align: center;
 }
 hr {
     border-style: none;
@@ -15,3 +15,30 @@ h1 {
 h2 {
     color: #394867;
 }
+
+.incenter {
+    text-align: center;
+    width: fit-content
+    margin: 0 auto 0 auto;
+}
+
+.auto-fit {
+    display: inline-block;
+}
+
+#id-card {
+    width: auto;
+    display: flex;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+.card-item {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    margin: 0 auto 0 auto;
+    height: auto;
+    width: auto;
+}
+
