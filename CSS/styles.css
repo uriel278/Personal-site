@@ -1,6 +1,7 @@
 body {
     background-color: #bedbbb;
     text-align: center;
+    margin: 0;
 }
 hr {
     border-style: none;
@@ -42,3 +43,41 @@ h2 {
     width: auto;
 }
 
+
+.navbar {
+    background-color: white;
+    border: 2px solid black;
+    padding: 3px;
+}
+
+.navbar-bar {
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+.navbar-bar-button {
+    margin: 0;
+    text-decoration-line: none;
+    padding: 3px;
+}
+
+.profile-images {
+    border-radius: 100%;
+    border-width: 1px;
+    border-style: dashed;
+    border-color:transparent;
+    max-height: 150px;
+    max-width: 150px;
+}
+
+
+
+#contact {
+    text-decoration-line: none;
+}
+
+#hobbies {
+    text-decoration-line: none;
+}
