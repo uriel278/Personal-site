@@ -6,82 +6,100 @@
         <meta lang = 'es-Mx'>
         <link rel="stylesheet" href="CSS/styles.css">
     </head>
+    
     <body>
         <!-- <h1 class="incenter"> -->
             <!-- Welcome -->
         <!-- </h1> -->
-        <nav class="navbar">
-            <ul class="navbar-bar">
-                <li class="navbar-bar-button"><a id="contact" href="contact.html">Contact</a></li>
-                <li class="navbar-bar-button"><a id="hobbies" href="hobbies.html">My hobbies</a></li>
-            </ul>
+        <nav>
+            <div class="navbar">
+                <h1>URIEL</h1>
+                <ul class="navbar-bar">
+                    <li class="navbar-bar-button"><a href="hobbies.html">My hobbies</a></li>
+                    <li class="navbar-bar-button"><a href="contact.html">Contact</a></li>
+                </ul>    
+            </div>
         </nav>
-
 
         <h1>
             A student, future developer, future statistician and future deep learning researcher.
         </h1>
-        
 
         <div id="id-card">
-            
-            <div class="card-item">
-                <img src = 'images/Profile.jpg'
-                alt = "Uriels Profile"
-                class = 'profile-images'>
+            <div id="id-container">
+
+                <div id="profile-img" class="card-item">
+                    <img src = 'images/Profile.jpg' alt = "Uriels Profile" class = 'profile-images'>
+                </div>
+                
+                <div id="name" class="card-item">
+                    <h2>Jesus Uriel Diaz Martinez</h2>
+                    <em><p>Statistics Student</p></em>
+                </div>
+
             </div>
-            
-            <div class="card-item">
-                <h2>Jesus Uriel Diaz Martinez</h2>
-                <em><p>Statistics Student</p></em>
-            </div>
-        
         </div>
+
         <hr>
+
         <div>
             Hi I'm a second year statistics student in Mexico at Chapingo Autonomous University. I'm interested in topics about <em>Statistical
                 Learning Theory</em>, <em>Machine Learning</em> and <em> Artificial Intelligence.</em>
         </div>
         <hr>
-        <div>
-            <h2>Courses that I have took</h2>
-            <ul>
-                <li>Machine Learning at Coursera</li>
-                <li>The complete web development bootcamp at Udemy</li>
-                <li>Deel Learning at coursera</li>
-                <li>Python sin fronteras at Udemy</li>
-            </ul>
+        <div class="academic">
+
+            <div class="academic-card">
+                <div id="courses">
+                    <div>
+                    <h2>Courses that I have took</h2>
+                    </div>
+
+                    <div id="courses-center">
+                        <ul id="courses-list">
+                            <li>Machine Learning at Coursera</li>
+                            <li>The complete web development bootcamp at Udemy</li>
+                            <li>Deel Learning at coursera</li>
+                            <li>Python sin fronteras at Udemy</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div id="classes">
+                    <h2>Classes that I love</h2>
+                    <table cellspacing = '10'>
+                        <thead>
+                            <tr>
+                                <th>Semester</th>
+                                <th>Class</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>I</td>
+                            <td>Calculus of a single variable</td>
+                        </tr>
+                        <tr>
+                            <td>I</td>
+                            <td>Probability Theory I</td>
+                        </tr>
+                        <tr>
+                            <td>II</td>
+                            <td>Multivariate Calculus</td>
+                        </tr>
+                        <tr>
+                            <td>II</td>
+                            <td>Matrix Algebra</td>
+                        </tr>
+                    </table>
+        
+                </div>
+            </div>
+
         </div>
+
         <hr>
-        <div>
-            <h2>Classes that I love</h2>
-            <table cellspacing = '10'>
-                <thead>
-                    <tr>
-                        <th>Semester</th>
-                        <th>Class</th>
-                    </tr>
-                </thead>
-                <tr>
-                    <td>I</td>
-                    <td>Calculus of a single variable</td>
-                </tr>
-                <tr>
-                    <td>I</td>
-                    <td>Probability Theory I</td>
-                </tr>
-                <tr>
-                    <td>II</td>
-                    <td>Multivariate Calculus</td>
-                </tr>
-                <tr>
-                    <td>II</td>
-                    <td>Matrix Algebra</td>
-                </tr>
-            </table>
-        </div>
-        <hr>
-        <div>
+
+        <div class="skills">
             <h2>Skills in programming</h2>
             <table cellspacing = '10'>
                 <tr>
@@ -111,16 +129,6 @@
                     </td>
                 </tr>
             </table>
-            <!-- <table cellspacing = '10'>
-                <tr>
-                    <td>Python  ⭐</td>
-                    <td>R   ⭐</td>
-                </tr>
-                <tr>
-                    <td>HTML    ⭐</td>
-                    <td>CSS     ⭐</td>
-                </tr>
-            </table> -->
         </div>  
         <hr>
     </body>
